@@ -27,6 +27,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   double quotation marks around the value, unless specified otherwise.
   And run 'tools/check' *before* committing to make sure that changes are good.
 -->
+<b>Registration is required and will be available just below, 
+starting at 5:00pm on Tuesday, July 26.</b> Make sure to read
+all details below before registering and to choose appropriately
+between UW-Madison's Data Carpentry and Software Carpentry workshops.
 
 <!--
   EVENTBRITE
@@ -46,10 +50,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template.  Use it to create your own website.
-Delete this line and email the link to your workshop page to admin@software-carpentry.org.
-If this is a self organized workshop, please be sure to include any other details
-Software Carpentry staff may need to know in your email.</h4>
+
 
 
 <h2 id="general">General Information</h2>
@@ -70,6 +71,18 @@ Software Carpentry staff may need to know in your email.</h4>
   help one another and to apply what they have learned to their own
   research problems.
 </p>
+<br>
+<p>
+  For researchers who have no prior experience with programming and just
+  want to get started in some basic skills for organizing, combining, and
+  visualizing data, our UW-Madison <a href="http://uw-madison-aci.github.io/2016-08-23-uwmadison/">
+  <i>Data Carpentry</i> workshop (August 23-24)</a> will likely be 
+  more appropriate. These two workshops are <b>NOT</b> intended to be taken back-to-back, 
+and you can learn about future workshops at UW-Madison by joining the 
+<a href="http://wisc.us9.list-manage.com/subscribe?u=c3aae71670855b66d79d170b8&id=6d65510fb6">
+mailing list</a> of UW-Madison's <a href="http://aci.wisc.edu/">Advanced Computing Initiative</a>.
+</p>
+
 <p align="center">
   <em>
     For more information on what we teach and why,
@@ -86,9 +99,8 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
-  <strong>You don't need to have any previous knowledge of the tools that will
-    be presented at the workshop.</strong>
+  The course is aimed at UW-Madison graduate students and other UW-Madison researchers.
+  <strong>Some prior experience with programming is strongly recommended.</strong>
 </p>
 
 <!--
@@ -122,6 +134,8 @@ Software Carpentry staff may need to know in your email.</h4>
   <a href="#setup">below</a>). They are also required to abide by
   Software Carpentry's
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <b>Registration is required, and will be available just above General Information, 
+  starting at 5:00 pm on Tuesday, July 26.</b>
 </p>
 
 <!--
@@ -133,7 +147,7 @@ Software Carpentry staff may need to know in your email.</h4>
 <p id="accessibility">
   <strong>Accessibility:</strong> We are committed to making this workshop
   accessible to everybody.
-  The workshop organisers have checked that:
+  The workshop organizers have checked that:
 </p>
 <ul>
   <li>The room is wheelchair / scooter accessible.</li>
@@ -181,10 +195,11 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>8:30</td>   <td><a href="https://github.com/UW-Madison-ACI/2016-06-08-uwmadison/blob/gh-pages/2016-06-08-BestPractices.pdf">Intro</a></td> </tr>
+      <tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/shell-novice/">Automating tasks with the Unix shell</a></td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="http://swcarpentry.github.io/python-novice-inflammation/">Building programs with Python</a></td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
     </table>
@@ -192,15 +207,18 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
+      <tr> <td>09:00</td>  <td><a href="http://swcarpentry.github.io/git-novice">Version control with Git</a></td> </tr>
       <tr> <td>10:30</td>  <td>Coffee</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
+      <tr> <td>13:00</td>  <td><a href="https://github.com/UW-Madison-ACI/swcarpentry-workflows-in-practice">Workflows in Practice (mobility, collaboration)</a></td> </tr>
       <tr> <td>14:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>14:45</td>  <td><a href="https://github.com/UW-Madison-ACI/swcarpentry-workflows-in-practice/blob/master/resources.md">Resources</a></td></tr>
       <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <!--<tr> <td>End</td>    <td><a href='{{ site.swc_post_survey }}{{ site.github.project_title }}'>Post-workshop Survey</a></td></tr>-->
     </table>
   </div>
 </div>
+
 
 <!--
   ETHERPAD
@@ -255,7 +273,7 @@ Software Carpentry staff may need to know in your email.</h4>
       <li>Looping over files</li>
       <li>Creating and running shell scripts</li>
       <li>Finding things</li>
-      <li><a href="{{site.swc_github_io}}/shell-novice/reference/">Reference...</a></li>
+      <li><a href="{{site.swc_githubio}}/shell-novice/reference.html">Reference...</a></li>
     </ul>
   </div>
   <div class="col-md-6">
@@ -268,7 +286,7 @@ Software Carpentry staff may need to know in your email.</h4>
       <li>Loops and conditionals</li>
       <li>Defensive programming</li>
       <li>Using Python from the command line</li>
-      <li><a href="{{site.swc_github_io}}/python-novice-inflammation/reference/">Reference...</a></li>
+      <li><a href="{{site.swc_githubio}}/python-novice-inflammation/reference.html">Reference...</a></li>
     </ul>
   </div>
   <!--
