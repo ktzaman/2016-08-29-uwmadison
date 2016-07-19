@@ -6,10 +6,10 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "Workshop Title"
+title: "Software Carpentry Workshop"
 
 # Contact email address.
-email: lessons@software-carpentry.org
+email: ckoch5@wisc.edu
 
 #------------------------------------------------------------
 # Generic settings (should not need to change).
@@ -30,8 +30,8 @@ swc_site: "https://software-carpentry.org"
 template_repo: "https://github.com/swcarpentry/styles"
 example_repo: "https://github.com/swcarpentry/lesson-example"
 example_site: "https://swcarpentry.github.com/lesson-example"
-workshop_repo: "https://github.com/swcarpentry/workshop-template"
-workshop_site: "https://swcarpentry.github.io/workshop-template"
+workshop_repo: "https://github.com/UW-Madison-ACI/2016-08-29-uwmadison"
+workshop_site: "https://UW-Madison-ACI.github.io/2016-08-29-uwmadison"
 
 # Surveys.
 pre_survey: "https://www.surveymonkey.com/r/swc_pre_workshop_v1?workshop_id="
